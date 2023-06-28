@@ -17,7 +17,7 @@ export const Card = (props) => {
                     Source Code</a>
             </button>
             <button className='like flex items-center p-1 border rounded-md space-x-1' onClick={()=> setLike(like + 1)}>
-                <img src="/images/heart.png" alt="" className='w-5'/>
+                <img src="/images/heart.png" alt="" className='w-5 '/>
                 <span>{like}</span>
             </button>
             </div>
